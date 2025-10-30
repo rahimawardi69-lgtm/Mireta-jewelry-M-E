@@ -1,0 +1,65 @@
+body {
+  font-family: 'Tajawal', sans-serif;
+  margin: 0;
+  background: #f8f6f7;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: white;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.hero {
+  background: linear-gradient(#fff, #f4e4e7);
+  padding: 40px 10px;
+}
+
+.hero button {
+  background: #b76e79;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product {
+  background: white;
+  margin: 10px;
+  border-radius: 10px;
+  width: 180px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product h3 {
+  margin: 10px 0 5px;
+}
+
+.product p {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.product button {
+  background: #b76e79;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 8px;
+  border-radius: 0 0 10px 10px;
+}
